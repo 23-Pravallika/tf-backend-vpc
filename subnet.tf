@@ -4,7 +4,7 @@ resource "aws_subnet" "public_subnet" {
   vpc_id     = aws_vpc.main.id
   cidr_block = element(var.PUBLIC_SUBNET, count.index)
   availability_zone = element(var.AZ, count.index)
-  map_public_ip_on_launch = "true"
+  map_public_ip_on_launch = true
 
   tags = {
     Name = "robo-public-subnet-${element(var.AZ, count.index)}"
