@@ -22,3 +22,4 @@ resource "aws_subnet" "private_subnet" {
     Name = "robo-private-subnet-${element(var.AZ, count.index)}"
   }
 }
+
