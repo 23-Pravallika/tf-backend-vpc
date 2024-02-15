@@ -56,6 +56,7 @@ resource "aws_route" "def-vpc-robot-vpc-root" {
   route_table_id            = var.DEFAULT_VPC_RT_ID
   destination_cidr_block    = var.VPC_CIDR
   vpc_peering_connection_id = aws_vpc_peering_connection.peer.id
+   depends_on                = [aws_vpc_peering_connection.peer]
 }
 
 
