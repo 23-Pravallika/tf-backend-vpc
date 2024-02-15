@@ -13,7 +13,7 @@ resource "aws_route_table" "public-rt" {
   }
 
   tags = {
-    Name = "robo-${var.ENV}-rt"
+    Name = "robo-${var.ENV}-public-rt"
   }
 }
 
@@ -34,7 +34,7 @@ resource "aws_route_table" "private-rt" {
   }
 
 tags = {
-    Name = "robo-${var.ENV}-rt"
+    Name = "robo-${var.ENV}-private-rt"
   }
 }
 
