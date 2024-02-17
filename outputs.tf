@@ -30,4 +30,11 @@ output "DEFAULT_VPC_CIDR"{
     value = var.DEFAULT_VPC_CIDR
 }
 
+output "PRIVATE_HOSTED_ZONE_ID"{
+    value = var.PRIVATE_HOSTED_ZONE_ID
+}
+
+output "PRIVATE_HOSTED_ZONE_NANE"{
+    value = var.PRIVATE_HOSTED_ZONE_NANE
+}
 
