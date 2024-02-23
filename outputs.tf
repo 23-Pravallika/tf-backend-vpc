@@ -34,7 +34,7 @@ output "PRIVATE_HOSTED_ZONE_ID"{
     value = var.PRIVATE_HOSTED_ZONE_ID
 }
 
-output "PRIVATE_HOSTED_ZONE_NANE"{
-    value = var.PRIVATE_HOSTED_ZONE_NANE
+output "PRIVATE_HOSTED_ZONE_NAME"{
+    value = var.PRIVATE_HOSTED_ZONE_NAME
 }
 

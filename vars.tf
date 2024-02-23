@@ -7,6 +7,6 @@ variable "DEFAULT_VPC_ID" {}
 variable "DEFAULT_VPC_CIDR" {}
 variable "DEFAULT_VPC_RT_ID" {}
 variable "PRIVATE_HOSTED_ZONE_ID" {}
-variable "PRIVATE_HOSTED_ZONE_NANE" {}
+variable "PRIVATE_HOSTED_ZONE_NAME" {}
 
 
